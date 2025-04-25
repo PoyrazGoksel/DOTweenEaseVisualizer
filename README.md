@@ -16,9 +16,8 @@ A Unity editor extension that provides visual previews for easing functions (Bac
 
 ## 🧩 Integration
 
-1. Drop the `IceFrostEase.cs` and `Editor` folder into your project.
-2. Click **Tools > Easing Visualizer**.
-3. Select an easing type and watch it animate!
+1. Click **Tools > Easing Visualizer**.
+2. Select an easing type and watch it animate!
 
 ## 🧪 Supported Curves
 
@@ -36,10 +35,10 @@ A Unity editor extension that provides visual previews for easing functions (Bac
 | Quint   | ✅  | ✅  | ✅     |
 | Sine    | ✅  | ✅  | ✅     |
 
-## 💡 Example Use Case
+## 💡 Example Easing Library Use Case (Extra)
 
 ```csharp
-float val = IceFrostEase.GetValueOnCurve(0f, 1f, Time.time % 1f, IceFrostEase.IceFrostEases.CubicInOut);
+float val = IceFrostEase.GetValueOnCurve(fromFloat: 0f, toFloat: 1f, tVal: Time.time % 1f, easeType: IceFrostEase.IceFrostEases.CubicInOut);
 ```
 
 Perfect for previewing DOTween-like tweens or authoring custom animations.
