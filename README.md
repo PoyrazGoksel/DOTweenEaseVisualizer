@@ -3,8 +3,8 @@
 A Unity editor extension that provides visual previews for easing functions (Back, Bounce, Elastic, etc.) directly from the **Tools** menu.
 
 ## 📸 UI Preview
-![Menu](https://github.com/user-attachments/assets/77eef1cf-3341-442c-be24-fa339be99887)
-![Button](https://github.com/user-attachments/assets/cac7040f-b5b2-4d63-a3dd-64bdeda96686)
+![Tool Menu](https://github.com/user-attachments/assets/cac7040f-b5b2-4d63-a3dd-64bdeda96686)
+![Tool Menu Button](https://github.com/user-attachments/assets/77eef1cf-3341-442c-be24-fa339be99887)
 ![PreviewScene](https://github.com/user-attachments/assets/a162ec9a-1088-4441-99c9-e86eadf42362)
 
 ## ✨ Features
